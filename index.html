@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Melodik Wavez School of Music | Guitar, Piano &amp; Keyboard Classes in Bengaluru</title>
+<meta name="description" content="Melodik Wavez School of Music, Bengaluru. Guitar, piano and keyboard classes and summer music camps for children and adults, since 2015.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 38 38'%3E%3Crect width='38' height='38' rx='9' fill='%23FFD23F'/%3E%3Cpath d='M17 25V10l12-3v15' stroke='%232F3E1B' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='13' cy='26' r='4.5' fill='%232F3E1B'/%3E%3Ccircle cx='25' cy='22' r='4.5' fill='%23556B2F'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,600&family=Playfair+Display:ital,wght@1,400&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/gallery.css">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js');</script>
+
+</head>
+<body>
+<div id="progress" aria-hidden="true"></div>
+
+<header id="header">
+  <div class="wrap nav">
+    <a class="logo" href="#home"><img src="images/logo.webp" alt="Melodik Wavez"></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <nav aria-label="Main"><ul id="menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="mob-only"><a href="#contact">Enquire Now</a></li>
+    </ul></nav>
+    <a class="cta glass nav-cta" href="#contact">Enquire Now<span class="arr"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a>
+  </div>
+</header>
+
+<main>
+  <!-- ===== HERO (background video) ===== -->
+  <div class="hero" id="home">
+    <!-- Put your video at videos/hero.mp4 (and optionally videos/hero.webm). Keep it short, silent and under ~8 MB. -->
+    <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+      <source src="videos/hero.webm" type="video/webm">
+      <source src="videos/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-inner">
+      <h1>
+        <span class="rise" style="--d:.1s">Discover the joy</span>
+        <span class="rise" style="--d:.25s">of <em>music</em> for every age</span>
+      </h1>
+      <div class="hero-bottom">
+        <ul class="feats">
+          <li class="rise" style="--d:.45s">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="18" r="10"/><path d="M20 18l3 3 5-6M17 27l-4 15 11-5 11 5-4-15"/></svg>
+            <div><b>Trinity-Accredited Founder</b><span>30+ years as musician &amp; mentor</span></div>
+          </li>
+          <li class="rise" style="--d:.55s">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M19 33V12l16-4v21"/><circle cx="15" cy="34" r="4"/><circle cx="31" cy="30" r="4"/></svg>
+            <div><b>Since 2015</b><span>Inspiring students across Bengaluru</span></div>
+          </li>
+          <li class="rise" style="--d:.65s">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="17" cy="17" r="5"/><path d="M7 38c0-6 4-10 10-10s10 4 10 10"/><circle cx="33" cy="20" r="4"/><path d="M30 30c6-1 11 2 11 8"/></svg>
+            <div><b>All Ages Welcome</b><span>Beginners to advanced, kids to adults</span></div>
+          </li>
+        </ul>
+        <div class="hero-about rise" style="--d:.75s">
+          <p>Guitar, piano and keyboard classes for children and adults, with performance-focused training that builds skill, confidence and stage presence.</p>
+          <a class="cta solid" href="#courses">Explore Courses<span class="arr"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></span></a>
+        </div>
+      </div>
+    </div>
+    <button class="vid-toggle" id="vidToggle" aria-label="Pause background video" hidden>
+      <svg class="i-pause" width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><rect x="2" y="1" width="3.5" height="12" rx="1"/><rect x="8.5" y="1" width="3.5" height="12" rx="1"/></svg>
+      <svg class="i-play" width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><path d="M3 1.5v11l9-5.5z"/></svg>
+    </button>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about"><div class="wrap">
+    <div class="ab">
+      <div class="ab-media reveal" data-anim="left">
+        <div class="ab-main"><img src="images/gallery/music-class-room.jpg" alt="Students learning at Melodik Wavez" loading="lazy" decoding="async"></div>
+        <div class="ab-small"><img src="images/gallery/guitar-plays-blue.webp" alt="Keyboards and guitar on the Melodik Wavez stage" loading="lazy" decoding="async"></div>
+        <div class="ab-years"><strong>30+</strong><span>Years Of Experience</span></div>
+      </div>
+
+      <div class="ab-body reveal" data-anim="right">
+        <span class="ab-eyebrow">About Us</span>
+        <h2>About Melodik Wavez</h2>
+        <p class="ab-lead">Since 2015, Melodik Wavez School of Music has been inspiring children and adults across Bengaluru to discover their passion for music, dance and the arts. With experienced trainers, structured courses and personalised guidance, we make learning enjoyable, creative and rewarding.</p>
+        <div class="ab-mv">
+          <div><h3>Our Mission:</h3><p>To make quality music education accessible, enjoyable and inspiring for learners of every age.</p></div>
+          <div><h3>Our Vision:</h3><p>A supportive community where talent grows, discipline thrives and a lifelong love for the arts begins.</p></div>
+        </div>
+        <ul class="ab-list">
+          <li>Performance-focused training in guitar, keyboard and more</li>
+          <li>Trinity-accredited founder with 30+ years in music</li>
+          <li>Classes for all ages, from children to adults</li>
+        </ul>
+        <a class="ab-btn" href="#courses">Discover More<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="8" cy="8" r="6.5"/><path d="M8 5v6M5 8h6"/></svg></a>
+      </div>
+    </div>
+
+    <div class="founder reveal">
+      <!-- To use a real photo, put <img src="images/founder.jpg" alt="Mr. Shivakumar"> inside .avatar in place of the letter -->
+      <div class="avatar" aria-hidden="true"><img src="images/gallery/guitar-playing-sitting.jpg" alt="" srcset=""></div>
+      <div>
+        <h3>Mr. Shivakumar</h3>
+        <div class="role">Founder, Melodik Wavez</div>
+        <div><span class="badge">30+ years in music</span><span class="badge">Trinity-accredited</span><span class="badge">Musician, educator, mentor</span></div>
+        <p>Driven by a lifelong passion for music and teaching, Mr. Shivakumar brings over 30 years of experience as a musician, educator and mentor. As the Founder of Melodik Wavez and a Trinity-accredited professional, he believes in nurturing every student's unique talent through encouragement, personalised guidance and quality music education. His vision is to create a welcoming space where students of all ages can discover their passion, grow in confidence and experience the joy of music.</p>
+      </div>
+    </div>
+  </div></section>
+
+  <!-- ===== COURSES ===== -->
+  <section id="courses" class="cs"><div class="wrap">
+    <div class="cs-head">
+      <div class="reveal">
+        <h2>Our <span>Music Courses</span></h2>
+        <p>Structured lessons for beginners and advanced learners, with experienced trainers and personalised guidance that build skill, confidence and stage presence at every step.</p>
+      </div>
+      <a class="cs-all reveal" style="--d:.1s" href="#contact">Free Demo Class<i><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></i></a>
+    </div>
+
+    <div class="cs-grid">
+      <article class="cs-card reveal" data-anim="zoom">
+        <div class="cs-text">
+          <h3>Acoustic Guitar</h3>
+          <p>Learn acoustic and classical guitar with expert guidance at Melodik Wavez. Our structured classes cover Western and Indian styles, combining music theory with hands-on practice. Suitable for beginners and advanced learners, our step-by-step training builds strong fundamentals, playing techniques, confidence and stage performance skills.</p>
+          <!-- <a class="cs-link" href="#contact" data-course="Acoustic Guitar">Explore More<i><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></i></a> -->
+        </div>
+        <div class="cs-img"><img src="images/gallery/music-class-room.jpg" alt="Guitar class in session" loading="lazy" decoding="async"></div>
+      </article>
+
+      <article class="cs-card reveal" data-anim="zoom" style="--d:.1s">
+        <div class="cs-text">
+          <h3>Piano and Keyboard</h3>
+          <p>Engaging, structured lessons in music theory, note reading, finger technique and rhythm, from Western classical to contemporary music, at your own pace.</p>
+          <!-- <a class="cs-link" href="#contact" data-course="Piano and Keyboard">Explore More<i><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></i></a> -->
+        </div>
+        <div class="cs-img"><img src="images/gallery/guitar-plays-blue.webp" alt="Keyboards and guitar on the Melodik Wavez stage" loading="lazy" decoding="async" style="--pos:50% 38%"></div>
+      </article>
+
+      <article class="cs-card reveal" data-anim="zoom" style="--d:.2s">
+        <div class="cs-text">
+          <h3>Summer Classes</h3>
+          <p>A fun music camp for ages 3&ndash;12 with guitars, keyboards, singing and a closing performance, plus personalised feedback and an assessment report.</p>
+          <!-- <a class="cs-link" href="#contact" data-course="Summer Classes">Explore More<i><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12L12 4M5.5 4H12v6.5"/></svg></i></a> -->
+        </div>
+        <div class="cs-img"><img src="images/gallery/indian-musiz.webp" alt="Young students holding their guitars" loading="lazy" decoding="async" style="--pos:50% 78%"></div>
+      </article>
+
+    </div>
+  </div></section>
+
+  <!-- ===== BAND ===== -->
+  <section class="band"><div class="wrap reveal" data-anim="zoom">
+    <h2>Learn. Practice. Perform.</h2>
+    <p>Flexible weekday and weekend batches, in online, offline and hybrid formats. No prior musical experience needed.</p>
+    <a class="btn btn-yellow" href="#contact">Book your first class</a>
+  </div></section>
+
+  <!-- ===== GALLERY (styles: css/gallery.css, photos: images/gallery/) ===== -->
+  <section id="gallery" class="alt"><div class="wrap">
+    <div class="g-head">
+      <div class="reveal">
+        <span class="g-badge">Our gallery</span>
+        <h2>Life at<br><span>Melodik Wavez.</span></h2>
+      </div>
+      <div class="g-side reveal" style="--d:.1s">
+        <p>Classes, rehearsals and stage moments from our students and teachers. Tap any photo to view it full size.</p>
+        <button type="button" class="g-all" id="galAll">View All Photos<span class="g-arr" aria-hidden="true"></span></button>
+      </div>
+    </div>
+
+    <!-- To change a photo or caption, edit the src and the text below. Slots p1-p8 set each tile's shape. -->
+    <div class="g-bento b1">
+      <div class="g-item p1 tall reveal" data-anim="zoom"><button class="g-btn" type="button" aria-label="View photo: Guitar Practice"><img src="images/gallery/guitar-playing.JPG" alt="Guitar Practice" loading="lazy" decoding="async"></button></div>
+      <div class="g-item p2 wide reveal" data-anim="zoom" style="--d:.06s"><button class="g-btn" type="button" aria-label="View photo: Learning Centre"><img src="images/gallery/learning-centre.jpeg" alt="Learning Centre" loading="lazy" decoding="async" style="--pos:50% 40%"></button></div>
+      <div class="g-item p3 reveal" data-anim="zoom" style="--d:.12s"><button class="g-btn" type="button" aria-label="View photo: Music Classroom"><img src="images/gallery/music-class-room.jpg" alt="Music Classroom" loading="lazy" decoding="async"></button></div>
+      <div class="g-item p4 reveal" data-anim="zoom" style="--d:.06s"><button class="g-btn" type="button" aria-label="View photo: Guitar Class"><img src="images/gallery/play-guitar.jpeg" alt="Guitar Class" loading="lazy" decoding="async"></button></div>
+      <div class="g-item p5 wide reveal" data-anim="zoom" style="--d:.12s"><button class="g-btn" type="button" aria-label="View photo: Our Community"><img src="images/gallery/full-gall.jpeg" alt="Our Community" loading="lazy" decoding="async" style="--pos:50% 35%"></button></div>
+      <div class="g-item p6 wide reveal" data-anim="zoom"><button class="g-btn" type="button" aria-label="View photo: Vocal Training"><img src="images/gallery/singing.jpeg" alt="Vocal Training" loading="lazy" decoding="async" style="--pos:50% 30%"></button></div>
+      <div class="g-item p7 reveal" data-anim="zoom" style="--d:.06s"><button class="g-btn" type="button" aria-label="View photo: Tribute"><img src="images/gallery/spb.jpg" alt="Tribute" loading="lazy" decoding="async"></button></div>
+      <div class="g-item p8 reveal" data-anim="zoom" style="--d:.12s"><button class="g-btn" type="button" aria-label="View photo: Sangeeth Evening"><img src="images/gallery/poorvi-sangeeth.jpeg" alt="Sangeeth Evening" loading="lazy" decoding="async"></button></div>
+    </div>
+
+    <div class="g-bento b2">
+      <div class="g-item p1 tall reveal" data-anim="zoom"><button class="g-btn" type="button" aria-label="View photo: Indian Music"><img src="images/gallery/indian-musiz.jpeg" alt="Indian Music" loading="lazy" decoding="async"></button></div>
+      <div class="g-item p2 reveal" data-anim="zoom" style="--d:.06s"><button class="g-btn" type="button" aria-label="View photo: Stage Performance"><img src="images/gallery/guitar-playing-stage.jpg" alt="Stage Performance" loading="lazy" decoding="async"></button></div>
+      <div class="g-item p3 wide reveal" data-anim="zoom" style="--d:.12s"><button class="g-btn" type="button" aria-label="View photo: Academy"><img src="images/gallery/poorvi-academy.JPG" alt="Academy" loading="lazy" decoding="async"></button></div>
+      <div class="g-item p4 wide reveal" data-anim="zoom" style="--d:.06s"><button class="g-btn" type="button" aria-label="View photo: Our Students"><img src="images/gallery/poorvi-academy-students.JPG" alt="Our Students" loading="lazy" decoding="async"></button></div>
+      <div class="g-item p5 reveal" data-anim="zoom" style="--d:.12s"><button class="g-btn" type="button" aria-label="View photo: Guitar Session"><img src="images/gallery/guitar-playing-sitting.jpg" alt="Guitar Session" loading="lazy" decoding="async"></button></div>
+      <div class="g-item p6 reveal" data-anim="zoom"><button class="g-btn" type="button" aria-label="View photo: Live Performance"><img src="images/gallery/poorvi-academy-playing.JPG" alt="Live Performance" loading="lazy" decoding="async"></button></div>
+      <div class="g-item p7 wide reveal" data-anim="zoom" style="--d:.06s"><button class="g-btn" type="button" aria-label="View photo: Guitar Lessons"><img src="images/gallery/guitar-plays-blue.webp" alt="Guitar Lessons" loading="lazy" decoding="async" style="--pos:50% 30%"></button></div>
+      <div class="g-item p8 reveal" data-anim="zoom" style="--d:.12s"><button class="g-btn" type="button" aria-label="View photo: On Stage"><img src="images/gallery/guitar-play-stage.webp" alt="On Stage" loading="lazy" decoding="async" style="--pos:50% 35%"></button></div>
+    </div>
+  </div></section>
+
+  <dialog class="lb" id="lb" aria-label="Photo viewer">
+    <button type="button" class="lb-x" id="lbX" aria-label="Close">&times;</button>
+    <button type="button" class="lb-prev" id="lbPrev" aria-label="Previous photo">&#8592;</button>
+    <button type="button" class="lb-next" id="lbNext" aria-label="Next photo">&#8594;</button>
+    <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  </dialog>
+
+  <!-- ===== TESTIMONIALS (sample text: replace with real feedback from your students and parents) ===== -->
+  <section id="testimonials"><div class="wrap">
+    <div class="title reveal"><span class="eyebrow">Testimonials</span><h2>What our students and parents say</h2></div>
+    <div class="tm-grid">
+      <figure class="tm-card reveal" data-anim="zoom">
+        <div class="tm-stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>My daughter started guitar with no experience and now plays on stage with confidence. The trainers are patient and the lessons are well structured.</blockquote>
+        <figcaption><span class="tm-av" aria-hidden="true">P</span><span><b>Parent</b>Acoustic Guitar student</span></figcaption>
+      </figure>
+      <figure class="tm-card reveal" data-anim="zoom" style="--d:.1s">
+        <div class="tm-stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>I picked up the keyboard as an adult and the classes fit around my work. I can read notes and play songs I love, at my own pace.</blockquote>
+        <figcaption><span class="tm-av" aria-hidden="true">A</span><span><b>Adult learner</b>Piano and Keyboard</span></figcaption>
+      </figure>
+      <figure class="tm-card reveal" data-anim="zoom" style="--d:.2s">
+        <div class="tm-stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>The summer camp was the highlight of my son's holidays. He learnt new songs, made friends and loved the closing performance.</blockquote>
+        <figcaption><span class="tm-av" aria-hidden="true">P</span><span><b>Parent</b>Summer Classes</span></figcaption>
+      </figure>
+    </div>
+  </div></section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq" class="alt"><div class="wrap">
+    <div class="title reveal"><span class="eyebrow">FAQ</span><h2>Frequently asked questions</h2></div>
+    <div class="faq" id="faqList"></div>
+  </div></section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="enquire"><div class="wrap">
+    <div class="ct">
+      <div class="ct-info reveal" data-anim="left">
+        <span class="ct-eyebrow">Ready to start your musical journey?</span>
+        <h2>Learn With Us. <span>Grow &amp; Perform.</span></h2>
+        <p class="ct-lead">Tell us a little about what you have in mind and we will get back to you about courses, available batches, fees and the admission process. If you would rather talk it through, give us a call.</p>
+        <a class="ct-btn" href="tel:+919844740653">Call us now<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        <div class="ct-rule"></div>
+        <div class="ct-grid">
+          <div><b>Address</b><p>6, 2nd main 4th cross, <br> R P C Layout, Vijayanagar, <br> Bengaluru - 560104</p></div>
+          <div><b>Phone</b><p><a href="tel:+919844740653">+91 98447 40653</a></p></div>
+          <div><b>WhatsApp</b><p><a href="https://wa.me/919844740653">+91 98447 40653</a></p></div>
+          <div><b>Email</b><p><a href="mailto:melodikwavez@gmail.com">melodikwavez@gmail.com</a></p></div>
+        </div>
+        <div class="ct-social">
+          <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".8" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8V6.5c0-.7.3-1 1-1h2V2h-3c-3 0-4.5 1.8-4.5 4.4V8H7v3.5h2.5V22H14V11.5h2.8L17.3 8z"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 8.2c-.2-1.3-1-2-2.2-2.2C18 5.7 12 5.7 12 5.7s-6 0-7.8.3C3 6.2 2.2 6.9 2 8.2 1.7 10 1.7 12 1.7 12s0 2 .3 3.8c.2 1.3 1 2 2.2 2.2 1.8.3 7.8.3 7.8.3s6 0 7.8-.3c1.2-.2 2-.9 2.2-2.2.3-1.8.3-3.8.3-3.8s0-2-.3-3.8zM10 15V9l5 3z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="panel reveal" data-anim="right" id="panel">
+        <form id="form" novalidate>
+          <h3>Send us an enquiry</h3>
+          <div class="frow">
+            <div class="field"><label for="name">Full name <i>*</i></label><input id="name" name="name" placeholder="Jane Cooper" autocomplete="name"><small class="err" aria-live="polite"></small></div>
+            <div class="field"><label for="mobile">Phone <i>*</i></label><input id="mobile" name="mobile" type="tel" inputmode="tel" placeholder="+91 98765 43210" autocomplete="tel"><small class="err" aria-live="polite"></small></div>
+          </div>
+          <div class="field"><label for="email">Email <i>*</i></label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email"><small class="err" aria-live="polite"></small></div>
+          <div class="field"><label for="course">Course required <i>*</i></label><select id="course" name="course">
+            <option value="">Select your course</option>
+            <option>Acoustic Guitar</option><option>Piano and Keyboard</option><option>Summer Classes</option><option>Not sure yet, please guide me</option>
+          </select><small class="err" aria-live="polite"></small></div>
+          <div class="field"><label for="message">Message (optional)</label><textarea id="message" name="message" placeholder="Tell us more about what you are looking for"></textarea><small class="err"></small></div>
+          <button class="send" id="send" type="submit">Send enquiry<span class="plane" aria-hidden="true">&rarr;</span></button>
+        </form>
+        <div class="success" id="success" role="status">
+          <svg width="96" height="96" viewBox="0 0 96 96" fill="none" aria-hidden="true"><circle cx="48" cy="48" r="38" stroke="#93C572" stroke-width="6" stroke-linecap="round" transform="rotate(-90 48 48)"/><path d="M31 49l12 12 22-25" stroke="#E0A800" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3 id="thanks">Thank you!</h3>
+          <p>We have your enquiry and will contact you soon.</p>
+          <button type="button" id="again">Send another enquiry</button>
+        </div>
+      </div>
+    </div>
+  </div></section>
+</main>
+
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div class="fmark reveal" aria-label="Melodik Wavez">
+      <span class="w1" aria-hidden="true"><span style="--i:0">M</span><span style="--i:1">E</span><span style="--i:2">L</span><span style="--i:3">O</span><span style="--i:4">D</span><span style="--i:5">I</span><span style="--i:6">K</span></span>
+      <span class="w2" aria-hidden="true"><span style="--i:7">W</span><span style="--i:8">a</span><span style="--i:9">v</span><span style="--i:10">e</span><span style="--i:11">z</span></span>
+    </div>
+
+    <a class="flogo" href="#home" aria-label="Back to top">
+      <svg width="104" height="104" viewBox="0 0 38 38" fill="none" stroke="#FFD23F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="1" width="36" height="36" rx="9"/><path d="M17 25V10l12-3v15"/><circle cx="13" cy="26" r="4.2"/><circle cx="25" cy="22" r="4.2"/><path d="M17 14l12-3"/></svg>
+    </a>
+
+    <ul class="fnav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <div class="faddr">
+      <h3>Address</h3>
+      <!-- Replace with your real address -->
+      <p>6, 2nd main 4th cross, <br> R P C Layout, Vijayanagar, </p>
+      <p>Bengaluru - 560104</p>
+    </div>
+
+    <div class="ffollow">
+      <h3>Follow us</h3>
+      <ul><li><a href="#">@instagram</a></li><li><a href="#">Facebook</a></li><li><a href="#">YouTube</a></li></ul>
+    </div>
+
+    <div class="fcopy">
+      <b>&copy;2026 | Melodik Wavez</b>
+      <p>School of Music, Bengaluru</p>
+    </div>
+
+    <ul class="fnav2">
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact">Enquire</a></li>
+    </ul>
+
+    <div class="fhours">
+      <h3>Class timings</h3>
+      <p>Weekday &amp; weekend batches</p>
+      <p>Online, offline &amp; hybrid</p>
+    </div>
+
+    <div class="fask">
+      <p>Have a question or want to find the right course? Drop us a line, we'd be delighted to tell you all about Melodik Wavez.</p>
+      <a class="mail" href="mailto:melodikwavez@gmail.com">melodikwavez@gmail.com</a>
+    </div>
+  </div>
+</div></footer>
+
+<button id="top" aria-label="Back to top">&uarr;</button>
+
+<script>
+/* ===== SETTINGS =====
+   FORM_ENDPOINT: paste the URL that should receive enquiries (for example a Formspree
+   or Google Apps Script link). While it is empty, the form only shows the thank-you
+   animation and does NOT send the enquiry anywhere. */
+var FORM_ENDPOINT = "";
+
+/* ===== FAQ CONTENT: edit the text inside the quotes ===== */
+var FAQ = [
+  ["What age groups can join Melodik Wavez?", "We welcome students of all ages, from young children to adults, with lessons tailored to individual age groups and skill levels."],
+  ["What are the class timings?", "We offer flexible weekday and weekend batches to suit different schedules. Contact the branch for available timings."],
+  ["Are online classes available?", "Yes! Selected courses are offered in online, offline and hybrid formats to make learning convenient and accessible."],
+  ["Do I need prior musical experience to join?", "Not at all! Our courses are designed for beginners as well as students with previous musical experience."],
+  ["Which musical instruments can I learn?", "We offer training in guitar, piano, keyboard and other musical disciplines, guided by experienced instructors."],
+  ["Do students get opportunities to perform on stage?", "Yes! We encourage students to participate in performances and showcases to build confidence, stage presence and practical experience."],
+  ["Are classes conducted individually or in groups?", "We offer structured learning with personalised attention, depending on the course, level and batch availability."],
+  ["Do I need to bring my own musical instrument?", "Having your own instrument is recommended for regular practice at home. Please check with your branch regarding instrument availability during classes."],
+  ["How do I choose the right course?", "Our team can guide you in selecting a suitable course based on your interests, age, experience and learning goals."],
+  ["How can I enrol at Melodik Wavez?", "Contact your nearest branch or fill in the online form, and we will get back to you about courses, available batches, fees and the admission process."]
+];
+
+function $(id){return document.getElementById(id);}
+function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+var calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* Build the FAQ list */
+$('faqList').innerHTML = FAQ.map(function(f,i){
+  return '<div class="q reveal" style="--d:'+(Math.min(i,4)*0.06)+'s"><h3><button aria-expanded="false" aria-controls="a'+i+'">'+esc(f[0])+
+         '<span class="plus" aria-hidden="true"></span></button></h3><div class="a" id="a'+i+'"><div><p>'+esc(f[1])+'</p></div></div></div>';
+}).join('');
+$('faqList').addEventListener('click',function(e){
+  var b=e.target.closest('button'); if(!b){return;}
+  var q=b.closest('.q'), open=!q.classList.contains('open');
+  Array.prototype.forEach.call($('faqList').children,function(x){
+    x.classList.remove('open'); x.querySelector('button').setAttribute('aria-expanded','false');
+  });
+  if(open){q.classList.add('open'); b.setAttribute('aria-expanded','true');}
+});
+
+/* Scroll animations: items animate in when they enter the screen and reset when they
+   leave, so the effect plays while scrolling down and again while scrolling up. */
+function countUp(el){
+  if(el.done||calm){return;} el.done=true;
+  var to=+el.getAttribute('data-count'), from=+(el.getAttribute('data-from')||0), t0=null;
+  function step(t){
+    if(!t0){t0=t;} var p=Math.min((t-t0)/1300,1), e=1-Math.pow(1-p,3);
+    el.textContent=Math.round(from+(to-from)*e);
+    if(p<1){requestAnimationFrame(step);}
+  }
+  requestAnimationFrame(step);
+}
+var items=document.querySelectorAll('.reveal');
+if('IntersectionObserver' in window && !calm){
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      var el=en.target;
+      if(en.isIntersecting){
+        el.classList.add('in');
+        Array.prototype.forEach.call(el.querySelectorAll('[data-count]'),countUp);
+      }else{
+        el.classList.remove('in');
+        el.classList.toggle('above',en.boundingClientRect.top<0);
+      }
+    });
+  },{threshold:0.12});
+  Array.prototype.forEach.call(items,function(el){io.observe(el);});
+}else{
+  Array.prototype.forEach.call(items,function(el){el.classList.add('in');});
+}
+
+/* Highlight the current section in the menu */
+var links=document.querySelectorAll('#menu a:not(.btn)');
+if('IntersectionObserver' in window){
+  var spy=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(!en.isIntersecting){return;}
+      Array.prototype.forEach.call(links,function(a){a.classList.toggle('active',a.getAttribute('href')==='#'+en.target.id);});
+    });
+  },{rootMargin:'-45% 0px -50% 0px'});
+  ['home','about','courses','gallery','faq','contact'].forEach(function(id){spy.observe($(id));});
+}
+
+/* Progress bar, header background and back-to-top button */
+var ticking=false;
+function onScroll(){
+  var y=window.scrollY, max=document.documentElement.scrollHeight-window.innerHeight;
+  $('progress').style.transform='scaleX('+(max>0?y/max:0)+')';
+  $('header').classList.toggle('scrolled',y>10);
+  $('top').classList.toggle('show',y>600);
+  ticking=false;
+}
+window.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(onScroll);}},{passive:true});
+onScroll();
+$('top').addEventListener('click',function(){window.scrollTo({top:0,behavior:calm?'auto':'smooth'});});
+
+/* Hero video: pause/play button (also respects reduced-motion) */
+var vid=$('heroVideo'), vt=$('vidToggle');
+if(calm){vid.removeAttribute('autoplay');vid.pause();}
+vid.addEventListener('loadeddata',function(){vt.hidden=false;vt.classList.toggle('paused',vid.paused);});
+vt.addEventListener('click',function(){
+  if(vid.paused){vid.play();}else{vid.pause();}
+  vt.classList.toggle('paused',vid.paused);
+  vt.setAttribute('aria-label',vid.paused?'Play background video':'Pause background video');
+});
+
+/* Gallery lightbox */
+var gItems=Array.prototype.slice.call(document.querySelectorAll('.g-btn')), lb=$('lb'), gCur=0;
+function gShow(i){
+  gCur=(i+gItems.length)%gItems.length;
+  var im=gItems[gCur].querySelector('img'), big=$('lbImg');
+  big.style.animation='none'; void big.offsetWidth; big.style.animation='';
+  big.src=im.currentSrc||im.src; big.alt=im.alt;
+  $('lbCap').textContent=(gCur+1)+' / '+gItems.length;
+}
+function gOpen(i){gShow(i); if(lb.showModal&&!lb.open){lb.showModal();}}
+gItems.forEach(function(b,i){b.addEventListener('click',function(){gOpen(i);});});
+$('galAll').addEventListener('click',function(){gOpen(0);});
+$('lbX').addEventListener('click',function(){lb.close();});
+$('lbPrev').addEventListener('click',function(){gShow(gCur-1);});
+$('lbNext').addEventListener('click',function(){gShow(gCur+1);});
+lb.addEventListener('click',function(e){if(e.target===lb){lb.close();}});
+lb.addEventListener('keydown',function(e){
+  if(e.key==='ArrowLeft'){gShow(gCur-1);}else if(e.key==='ArrowRight'){gShow(gCur+1);}
+});
+
+/* Mobile menu */
+var btn=$('menuBtn'), menu=$('menu');
+btn.addEventListener('click',function(){btn.setAttribute('aria-expanded',menu.classList.toggle('open'));});
+menu.addEventListener('click',function(e){
+  if(e.target.tagName==='A'){menu.classList.remove('open');btn.setAttribute('aria-expanded','false');}
+});
+
+/* Clicking "Enquire" on a course pre-selects it in the form */
+document.addEventListener('click',function(e){
+  var a=e.target.closest('[data-course]'); if(a){$('course').value=a.getAttribute('data-course');}
+});
+
+/* Enquiry form */
+function setError(id,text){
+  var f=$(id).closest('.field');
+  f.classList.remove('bad'); void f.offsetWidth;            /* restart the shake */
+  f.querySelector('.err').textContent=text||'';
+  if(text){f.classList.add('bad');}
+  return !text;
+}
+['name','mobile','email','course'].forEach(function(id){
+  $(id).addEventListener('input',function(){setError(id,'');});
+});
+$('form').addEventListener('submit',function(e){
+  e.preventDefault();
+  var form=this, n=$('name').value.trim(), m=$('mobile').value.replace(/\D/g,''), em=$('email').value.trim(), c=$('course').value;
+  var ok=[
+    setError('name', n?'':'Please enter your name.'),
+    setError('mobile', m.length>=10&&m.length<=13?'':'Please enter a 10-digit mobile number.'),
+    setError('email', /^\S+@\S+\.\S+$/.test(em)?'':'Please enter a valid email address.'),
+    setError('course', c?'':'Please choose a course.')
+  ].every(Boolean);
+  if(!ok){var first=form.querySelector('.bad input,.bad select'); if(first){first.focus();} return;}
+
+  var send=$('send'); send.classList.add('busy');
+  function done(){
+    send.classList.remove('busy');
+    $('thanks').textContent='Thank you, '+n+'!';
+    $('panel').classList.add('sent'); form.reset();
+  }
+  function failed(){
+    send.classList.remove('busy');
+    setError('course','Sorry, that did not send. Please try again or call us.');
+  }
+  if(!FORM_ENDPOINT){setTimeout(done,900); return;}          /* demo mode: nothing is sent */
+  fetch(FORM_ENDPOINT,{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)})
+    .then(function(r){if(r.ok){done();}else{failed();}}).catch(failed);
+});
+$('again').addEventListener('click',function(){$('panel').classList.remove('sent');$('name').focus();});
+</script>
+</body>
+</html>
